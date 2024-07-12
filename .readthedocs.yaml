@@ -1,15 +1,13 @@
-
-
 version: 2
 
 build:
-  os:windows
-  tools:
-    python : "3.10"
+  os: windows
+  tools: 
+    python: "3.10"
 
 sphinx:
   configuration: source/conf.py
 
 python:
   install:
-  -requirements:requirements.txt
+    - requirements: requirements.txt
